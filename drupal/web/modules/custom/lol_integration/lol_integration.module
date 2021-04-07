@@ -1,0 +1,73 @@
+<?php
+
+use Drupal\lol_integration\Classes\GeneralData;
+
+function lol_integration_reponse($url, $method = 'GET', $params = array()) {
+  $methods = [
+    'POST',
+    'GET',
+    'PUT',
+    'DELETE'
+  ];
+  $result = array();
+
+  try {
+    if (empty($url)) {
+      throw new Exception("Invalid url");
+    }
+    if (in_array(strtoupper($method), $methods) === FALSE) {
+      throw new Exception("Invalid method");
+    }
+    else {
+      switch (strtoupper($method)) {
+        case 'GET':
+        case 'POST':
+        case 'PUT':
+        case 'DELETE':
+          $result = lol_integration_call_request($url, $method, $params);
+          break;
+        default:
+          throw new Exception("Invalid method");
+          break;
+      }
+    }
+  }
+  catch (Exception $e) {
+    echo $e->getMessage();
+  }
+
+  return $result;
+}
+
+function lol_integration_call_request($requesturl, $method, $params = array()) {
+  $url = $requesturl;
+  try {
+    $ch = curl_init();
+    $headers = array(
+      "X-Riot-Token : RGAPI-8d5011d9-aa0e-48b6-b0c3-839430489431",
+    );
+
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_FRESH_CONNECT, TRUE);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
+    curl_setopt($ch, CURLOPT_FORBID_REUSE, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
+
+    $result = curl_exec($ch);
+    curl_close($ch);
+
+    return $result;
+  }
+
+  catch (Exception $e) {
+    echo $e->getMessage();
+  }
+
+}
+
+function lol_integration_page_attachments(array &$page) {
+  $generalData = new GeneralData();
+  $page['#attached']['drupalSettings']['generalData'] = array('base_icon_image_url' => $generalData->baseIconImageUrl());
+}

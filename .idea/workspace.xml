@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d1b960e-3732-45f7-810d-1858a7648352" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="ProjectId" id="1cv5hA8EDC7FbdTERGPDwtbVEZj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/drupal/web/modules/custom/lol_integration/src/Controller" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="vagrant up" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d1b960e-3732-45f7-810d-1858a7648352" name="Default Changelist" comment="" />
+      <created>1591396342381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591396342381</updated>
+      <workItem from="1591396344929" duration="2232000" />
+      <workItem from="1591555618354" duration="14043000" />
+      <workItem from="1591717848732" duration="20000" />
+      <workItem from="1592244023245" duration="7154000" />
+      <workItem from="1592312557814" duration="16000" />
+      <workItem from="1592429993942" duration="916000" />
+      <workItem from="1592486591696" duration="23000" />
+      <workItem from="1592606372247" duration="2780000" />
+      <workItem from="1592711330032" duration="5027000" />
+      <workItem from="1592780465889" duration="1162000" />
+      <workItem from="1592858504278" duration="52000" />
+      <workItem from="1592866688255" duration="5224000" />
+      <workItem from="1592944672104" duration="181000" />
+      <workItem from="1592945051771" duration="5162000" />
+      <workItem from="1593006979332" duration="96000" />
+      <workItem from="1593051432996" duration="3253000" />
+      <workItem from="1593116207140" duration="1000" />
+      <workItem from="1593202057344" duration="5829000" />
+      <workItem from="1593435253167" duration="44000" />
+      <workItem from="1593890242104" duration="9208000" />
+      <workItem from="1594153132597" duration="3781000" />
+      <workItem from="1594215990737" duration="61000" />
+      <workItem from="1595626862115" duration="1248000" />
+      <workItem from="1596574150854" duration="1932000" />
+      <workItem from="1596578875142" duration="639000" />
+      <workItem from="1599057122524" duration="76000" />
+      <workItem from="1599524901042" duration="993000" />
+      <workItem from="1605197692600" duration="278000" />
+      <workItem from="1605366725426" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Drupal" timestamp="1591555645838">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Drupal/0.0.1440.900@0.0.1440.900" timestamp="1591555645838" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1592920734089">
+      <screen x="0" y="0" width="1440" height="855" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.0.1440.855@0.0.1440.855" timestamp="1592920734089" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1592920734089">
+      <screen x="0" y="0" width="1440" height="855" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.0.1440.855@0.0.1440.855" timestamp="1592920734089" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1592920734088">
+      <screen x="0" y="0" width="1440" height="855" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.0.1440.855@0.0.1440.855" timestamp="1592920734088" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1592920734089">
+      <screen x="0" y="0" width="1440" height="855" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.0.1440.855@0.0.1440.855" timestamp="1592920734089" />
+    <state x="315" y="262" key="NewPhpClassDialog" timestamp="1592632950566">
+      <screen x="0" y="0" width="1440" height="855" />
+    </state>
+    <state x="315" y="262" key="NewPhpClassDialog/0.0.1440.855@0.0.1440.855" timestamp="1592632950566" />
+    <state x="538" y="369" key="NewPhpFileDialog" timestamp="1592632894002">
+      <screen x="0" y="0" width="1440" height="855" />
+    </state>
+    <state x="538" y="369" key="NewPhpFileDialog/0.0.1440.855@0.0.1440.855" timestamp="1592632894002" />
+    <state x="378" y="207" width="837" height="550" key="find.popup" timestamp="1591396736932">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="207" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1591396736932" />
+    <state x="385" y="199" width="670" height="675" key="run.anything.popup" timestamp="1592866857528">
+      <screen x="0" y="0" width="1440" height="855" />
+    </state>
+    <state x="385" y="199" width="670" height="675" key="run.anything.popup/0.0.1440.855@0.0.1440.855" timestamp="1592866857528" />
+    <state x="450" y="294" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1591397520744">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="294" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1591397520744" />
+  </component>
+</project>

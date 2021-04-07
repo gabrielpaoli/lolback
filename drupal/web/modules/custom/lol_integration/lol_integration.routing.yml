@@ -1,0 +1,48 @@
+lol_integration_json.data:
+  path: '/lol_json_champions'
+  defaults:
+    _controller: '\Drupal\lol_integration\Controller\ChampionDataController::getList'
+  requirements:
+    _permission: 'access content'
+
+lol_integration_champions_per_id_json.data:
+  path: '/lol_json_champions_per_id'
+  defaults:
+    _controller: '\Drupal\lol_integration\Controller\ChampionDataController::getListPerId'
+  requirements:
+    _permission: 'access content'
+
+lol_integration_champion_json.data:
+  path: '/lol_json_champion/{id}'
+  defaults:
+    _controller: '\Drupal\lol_integration\Controller\ChampionDataController::getChampionPerId'
+  requirements:
+    _permission: 'access content'
+
+lol_integration_matchlists_json.data:
+  path: '/lol_json_matchlists/{encryptedAccountId}'
+  defaults:
+    _controller: '\Drupal\lol_integration\Controller\MatchListsController::getMatchlistsPerChampionAccoundId'
+  requirements:
+    _permission: 'access content'
+
+lol_integration_summoner_per_name_json.data:
+  path: '/lol_json_summoner_per_name/{region}/{summonerName}'
+  defaults:
+    _controller: '\Drupal\lol_integration\Controller\SummonerController::getSummonerPerName'
+  requirements:
+    _permission: 'access content'
+
+lol_integration_summoner_per_id.data:
+  path: '/lol_json_summoner_per_id/{region}/{encryptedAccountId}'
+  defaults:
+    _controller: '\Drupal\lol_integration\Controller\SummonerController::getSummonerPerId'
+  requirements:
+    _permission: 'access content'
+
+lol_integration_champion_mastery.data:
+  path: '/lol_json_champion_mastery/{region}/{encryptedAccountId}'
+  defaults:
+    _controller: '\Drupal\lol_integration\Controller\SummonerController::getChampionMastery'
+  requirements:
+    _permission: 'access content'

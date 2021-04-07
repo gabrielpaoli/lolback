@@ -1,0 +1,6 @@
+name: League of Legends integration
+type: module
+description: 'Module to integrate lol data with site'
+package: Custom
+version: 8.x
+core: 8.x
